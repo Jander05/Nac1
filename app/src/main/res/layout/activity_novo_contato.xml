@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NovoContato">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="195dp"
+        android:layout_height="47dp"
+        app:srcCompat="@drawable/capturar2"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="25dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/todo" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="122dp"
+        android:layout_height="47dp"
+        android:text="@string/buscar_cep"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="292dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="159dp"
+        android:layout_height="43dp"
+        android:text="@string/salvar_contato"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="672dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="348dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="@string/e_mail"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="161dp"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="348dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/nome"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="97dp"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="@string/celular"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="222dp"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text="@string/cep"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="292dp"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/logradouro"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="356dp"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/bairro"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="423dp"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/cidade"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="485dp"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/estado"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="552dp"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
+
+</android.support.constraint.ConstraintLayout>
